@@ -19,6 +19,7 @@ def dfs(v):
   for i in range(1, n + 1):
     if visited2[i] == 0 and graph[v][i] == 1:
       dfs(i)
+      
 
 n, m, v = map(int, input().split())
 
