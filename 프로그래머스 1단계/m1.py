@@ -6,8 +6,6 @@ def solution(s):
     for i in range(10):
         if s.find(a[i]) >=0:    # 영어 발견시 
             s = s.replace(a[i],b[i])    # 숫자로 바꿔준다
-    
-            
     answer = int(s)
     return answer
 
